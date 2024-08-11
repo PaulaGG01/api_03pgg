@@ -1,4 +1,4 @@
-PROYECTO 3: Proyecto 3 Tablero de Datos ("Dashboard") 
+##**PROYECTO 3: Proyecto 3 Tablero de Datos ("Dashboard")**##
 Este proyecto corresponde a la tercera entrega del Bootcamp Desarrollador Web Full Stack UDD, consistente en la construcción de un Tablero de Datos ("Dashboard") que consistió en una API de búsqueda de países. 
 Este desarrollo incluyó:
 o	Ambiente de desarrollo con Node.js.
@@ -14,7 +14,7 @@ o	Uso de fetch para el consumo de datos.
 o	Modularización con import y export. 
 o	Uso de promesas o async-await.
 
-Link de página web: 
+Link de página web:
 https://api03.netlify.app/
 ¡Gracias! Paula García.
 
