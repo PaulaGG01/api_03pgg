@@ -1,0 +1,136 @@
+/* global.css */
+
+.header {
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho */
+    background-color: #87CEFA; /* Nuevo color de fondo del encabezado (azul claro) */
+    color: #ffffff; /* Color del texto en el encabezado */
+    text-align: center;
+    padding: 20px 0; /* Espaciado arriba y abajo */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #d8f5e028; /* Color de fondo */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #5d1170; /* Color del texto del título */
+}
+
+.search-container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #f5efef; /* Color del texto de la etiqueta */
+}
+
+#search-input {
+    width: 40%;
+    padding: 8px;
+    margin: 0 auto; /* Centra el input dentro de su contenedor */
+    border: 1px solid #ffffff;
+    background-color: #9c5dac;
+    display: block; /* Asegura que el input se comporta como un bloque */
+    max-width: 500px; /* Añade un ancho máximo para mejorar el diseño en pantallas grandes */
+    color: #ffffff; /* Color del texto del campo de búsqueda */
+}
+
+/* Estilos para el placeholder */
+#search-input::placeholder {
+    color: #d6d1d1; /* Color del texto del placeholder */
+    font-size: 16px; /* Tamaño del texto del placeholder */
+    font-weight: 300; /* Grosor del texto del placeholder */
+}
+
+.continent-section {
+    margin-bottom: 20px;
+}
+
+.country-card {
+    border: 1px solid #ffffff;
+    background-color: #28bb54; /* Color botón búsqueda */
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    color: #ffffff; /* Cambia el color del texto del botón a blanco */
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.country-card:hover {
+    transform: scale(1.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.country-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#pie-chart-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.details-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.details-column {
+    flex: 1;
+}
+
+.details-text {
+    text-align: left;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #9c5dac;
+    text-align: center;
+    position: relative;
+}
+
+.texto-footer {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    padding-top: 40px;
+    color: #fff;
+}

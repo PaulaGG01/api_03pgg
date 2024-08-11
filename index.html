@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Países</title>
+    <link rel="stylesheet" href="global.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 300px;
+            width: 100%;
+        }
+
+        /* Contenedor general */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        /* Contenedor para gráficos y lista de países */
+        #pie-chart-container {
+            margin-bottom: 20px;
+        }
+
+        #countries-list {
+            margin: 20px 0;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        /* Contenedor de detalles del país */
+        .details-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .details-text {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Imagen del país */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        #country-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Información de Países</h1>
+    
+    <label for="search-input">Buscar país:</label>
+    <input type="text" id="search-input" placeholder="Escribe el nombre del país">
+
+    <div class="container">
+        <div id="pie-chart-container">
+            <canvas id="pie-chart" width="600" height="300"></canvas>
+        </div>
+        
+        <div id="countries-list" class="country-row">
+            <!-- Lista de países aquí -->
+        </div>
+       
+        <div class="details-container">
+            <div id="country-details" class="details-column">
+                <div class="details-text">
+                    <h2 id="country-name"></h2>
+                    <p id="country-capital"></p>
+                    <p id="country-population"></p>
+                    <p id="country-area"></p>
+                    <p id="country-region"></p>
+                    <p id="country-languages"></p>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <!-- <img id="country-image" src="" alt="Country Image"> -->
+            </div>
+        </div>
+    </div>
+    
+    <div id="map"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="main.js"></script>
+
+    <footer class="footer">
+        <div class="texto-footer">Proyecto 3: Api búsqueda de países
+         <br>Bootcamp UDD Fullstack
+        </div>
+     </footer>
+</body>
+</html>
