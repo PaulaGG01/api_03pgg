@@ -15,6 +15,6 @@ o	Modularización con import y export.
 o	Uso de promesas o async-await.
 
 **Link de página web:**
-https://api03.netlify.app/
-¡Gracias! Paula García.
+**[https://api03.netlify.app/]**
+**[¡Gracias! Paula García.]**
 
